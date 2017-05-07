@@ -23,9 +23,9 @@ tmp=sigmoid(X*theta);
 
 J=(-(y'*log(tmp))-((1-y)'*log(1-tmp)))./m;
 
-grad=((tmp-y)'*X)./m;
+grad=((tmp-y)'*X)./m
 
-
+fprintf(' %f \n', grad);
 
 
 
