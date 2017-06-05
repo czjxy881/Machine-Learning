@@ -15,9 +15,10 @@ sim = 0;
 %               sigma
 %
 %
+t=(x1-x2);
+length=t'*t;
 
-
-
+sim=exp(-(t'*t)/(2*sigma^2));
 
 
 
