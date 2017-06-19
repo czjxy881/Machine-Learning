@@ -21,7 +21,9 @@ sigma2 = zeros(n, 1);
 %               should contain variance of the i-th feature.
 %
 
-
+mu=mean(X);
+% 默认为1/n-1,opt为1的时候为1/n
+sigma2=var(X,1);
 
 
 
